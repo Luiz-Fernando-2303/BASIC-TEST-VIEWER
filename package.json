@@ -1,0 +1,39 @@
+{
+  "name": "forge-viewer-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@types/forge-viewer": "^7.89.1",
+    "cra-template": "1.2.0",
+    "forge-apis": "^0.9.10",
+    "nodemon": "^3.1.9",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-scripts": "5.0.1",
+    "three": "^0.173.0"
+  },
+  "scripts": {
+    "start": "react-scripts start nodemon server.js",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
